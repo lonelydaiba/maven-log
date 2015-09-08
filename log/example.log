@@ -1,0 +1,12 @@
+WARN main demo.LogDemo - hello world!
+ERROR main demo.LogDemo - hello world!
+WARN main demo.LogDemo - hello world!
+ERROR main demo.LogDemo - hello world!
+WARN main demo.LogDemo - hello world!
+ERROR main demo.LogDemo - hello world!
+WARN main demo.LogDemo - hello world!
+INFO main demo.LogDemo - hello world!!
+ERROR main demo.LogDemo - hello world!
+WARN main test.LogDemo - hello world!
+INFO main test.LogDemo - hello world!!
+ERROR main test.LogDemo - hello world!
