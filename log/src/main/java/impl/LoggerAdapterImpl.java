@@ -9,12 +9,12 @@ import dao.ILoggerAdapter;
  * @author dl
  *
  */
-public class LoggerAdapterImpl implements ILoggerAdapter{
+public class LoggerAdapterImpl extends LogManager implements ILoggerAdapter {
 	
-	private Logger log=null;
-	public LoggerAdapterImpl(Class clazz) {
-		log=LogManager.getLogger(clazz!=null?clazz.getClass():clazz);
-	}
+	private static final Logger log=LogManager.getLogger(LoggerAdapterImpl.class);
+//	public LoggerAdapterImpl(Class clazz) {
+//		log=LogManager.getLogger(clazz!=null?clazz.getClass():clazz);
+//	}
 	public void info(String msg) {
 		log.info(msg);
 	}
